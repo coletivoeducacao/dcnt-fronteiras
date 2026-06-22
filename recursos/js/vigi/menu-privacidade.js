@@ -1,4 +1,4 @@
-import GA from './preferencias/privacidade/ga.mjs';
+import GA from './preferencias/privacidade/ga.js';
 
 const tab = document.getElementById('menu-privacidade-tab');
 const form = document.getElementById('menu-privacidade-form');

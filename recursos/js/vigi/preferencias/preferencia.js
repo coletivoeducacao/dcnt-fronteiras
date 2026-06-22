@@ -1,6 +1,6 @@
 
-import { getValorDoCookie, setValorDoCookie } from '../cookies.mjs'
-import { gTagConfig } from '../gtag/gtag-config.mjs';
+import { getValorDoCookie, setValorDoCookie } from '../cookies.js'
+import { gTagConfig } from '../gtag/gtag-config.js';
 
 export default class Preferencia {
     /**

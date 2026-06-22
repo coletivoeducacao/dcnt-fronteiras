@@ -1,5 +1,5 @@
-import { abrir, exibirAba } from "./menu.mjs"
-import { exibirSlide } from "./modulos.mjs"
+import { abrir, exibirAba } from "./menu.js"
+import { exibirSlide } from "./modulos.js"
 
 // Usada para saber se temos um slide especifico para ser exibido.
 let exibindoAula = null;

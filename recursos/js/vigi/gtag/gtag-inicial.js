@@ -1,5 +1,5 @@
-import GA from '../preferencias/privacidade/ga.mjs';
-import { gTagID, gTagConfig } from './gtag-config.mjs';
+import GA from '../preferencias/privacidade/ga.js';
+import { gTagID, gTagConfig } from './gtag-config.js';
 
 gtag('consent', 'default', {
     'ad_storage': 'denied',

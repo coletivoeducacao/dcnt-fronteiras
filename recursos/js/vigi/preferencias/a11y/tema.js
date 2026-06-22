@@ -1,5 +1,5 @@
-import Preferencia from "../preferencia.mjs";
-import { gTagConfig } from '../../gtag/gtag-config.mjs';
+import Preferencia from "../preferencia.js";
+import { gTagConfig } from '../../gtag/gtag-config.js';
 
 export default class Tema extends Preferencia {
     static get nome()   { return 'tema' }

@@ -2,8 +2,8 @@
  * Banner de solicitação de consentimento para o uso de cookies.
  */
 
-import GA from './preferencias/privacidade/ga.mjs';
-import * as Menu from './menu.mjs';
+import GA from './preferencias/privacidade/ga.js';
+import * as Menu from './menu.js';
 
 const cookieBanner = document.getElementById('cookie-banner');
 

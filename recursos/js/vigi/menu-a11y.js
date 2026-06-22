@@ -1,6 +1,6 @@
-import Tema from './preferencias/a11y/tema.mjs';
-import TamanhoDoTexto from './preferencias/a11y/tamanho-do-texto.mjs';
-import AutoExibir from './preferencias/a11y/auto-exibir.mjs';
+import Tema from './preferencias/a11y/tema.js';
+import TamanhoDoTexto from './preferencias/a11y/tamanho-do-texto.js';
+import AutoExibir from './preferencias/a11y/auto-exibir.js';
 
 const tab = document.getElementById('menu-acessibilidade-tab');
 const form = document.getElementById('menu-acessibilidade-form');

@@ -1,6 +1,6 @@
-import Preferencia from "../preferencia.mjs";
-import { setValorDoCookie } from "../../cookies.mjs";
-import { gTagID } from "../../gtag/gtag-config.mjs";
+import Preferencia from "../preferencia.js";
+import { setValorDoCookie } from "../../cookies.js";
+import { gTagID } from "../../gtag/gtag-config.js";
 
 export default class GA extends Preferencia {
     static get nome()   { return 'GA' }

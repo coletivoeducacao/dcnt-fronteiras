@@ -1,9 +1,9 @@
-import { carousel } from "./menu-modulos.mjs";
-import "./menu-a11y.mjs";
-import "./menu-privacidade.mjs";
-import { exibirSlide } from "./modulos.mjs"
-import { getIndexPorNome, exibirModulo, exibirAula } from "./menu-modulos.mjs"
-import { Tab } from "../bootstrap/bootstrap.min.mjs";
+import { carousel } from "./menu-modulos.js";
+import "./menu-a11y.js";
+import "./menu-privacidade.js";
+import { exibirSlide } from "./modulos.js"
+import { getIndexPorNome, exibirModulo, exibirAula } from "./menu-modulos.js"
+import { Tab } from "../bootstrap/bootstrap.esm.min.js";
 
 export const menu = document.getElementById('menu');
 const botaoFechar = document.getElementById('menu-fechar');

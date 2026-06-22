@@ -1,6 +1,6 @@
-import Preferencia from "../preferencia.mjs";
-import { autoExibirTodos as autoPista } from "../../pista.mjs";
-import { Collapse } from "../../../bootstrap/bootstrap.min.mjs";
+import Preferencia from "../preferencia.js";
+import { autoExibirTodos as autoPista } from "../../pista.js";
+import { Collapse } from "../../../bootstrap/bootstrap.esm.min.js";
 
 export default class AutoExibir extends Preferencia {
     static get nome()   { return 'autoExibir' }

@@ -1,4 +1,4 @@
-import { Carousel } from "../bootstrap/bootstrap.min.mjs";
+import { Carousel } from "../bootstrap/bootstrap.esm.min.js";
 
 const modulosCarrossel = document.querySelectorAll('.modulos-carrossel');
 

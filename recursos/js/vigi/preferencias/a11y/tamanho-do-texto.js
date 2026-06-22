@@ -1,4 +1,4 @@
-import Preferencia from "../preferencia.mjs";
+import Preferencia from "../preferencia.js";
 
 export default class TamanhoDoTexto extends Preferencia {
     static get nome()   { return 'tamanhoDoTexto' }
